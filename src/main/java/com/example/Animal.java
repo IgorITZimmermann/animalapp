@@ -21,4 +21,8 @@ public class Animal {
         return "Some animal sound";
     }
 
+    public void eat(String food){
+        System.out.println(name + " is eating " + food);
+    }
+
 }
